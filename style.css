@@ -22,6 +22,15 @@ img {
     max-width: 200px;
 }
 
+.icon{
+    max-width: 45px;
+}
+.icon:hover {
+    color: #f39c12; /* Change color on hover */
+}
+.fab fa-facebook-f {
+    max-width: 100px;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,3 +43,15 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #f39c12; /* Change color on hover */
+}
+
